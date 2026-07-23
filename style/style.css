@@ -17,15 +17,16 @@ a {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
 }
 
-.nav-container {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #eed3d3;
+    background-color: #CFD2C6;
+    color: #515643;
 }
 
 .menu {
@@ -42,20 +43,17 @@ header {
   background-image: url('../images/banner.jpg');
   background-size: cover;
   background-position: center;
-  color: #fff;
+   padding: 2rem;
+   color: #515643;
   height: 800px;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-weight: 700;
+    width:909px;
+    height: 200px;
     margin-top: 15rem;
     margin-left: 10rem;
-}
-
-header,
-section,
-footer {
-    padding: 2rem;
 }
 
 h1 {
