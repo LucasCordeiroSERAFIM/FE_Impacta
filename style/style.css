@@ -25,7 +25,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #ffffff;
+    background-color: #eed3d3;
 }
 
 .menu {
@@ -37,6 +37,19 @@ ul {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
+}
+header {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 800px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-top: 15rem;
+    margin-left: 10rem;
 }
 
 header,
