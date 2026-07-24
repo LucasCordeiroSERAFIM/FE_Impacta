@@ -29,14 +29,7 @@ ul {
     list-style-type: none;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: var(--color-secondary);
-    color: var(--color-primary);
-}
+
 .icon-hamburger{
     width: 30px;
     height: 30px;
@@ -45,7 +38,15 @@ ul {
     display: flex;
     gap: 1rem;
     align-items: center;
-   
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .logo {
