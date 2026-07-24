@@ -84,7 +84,7 @@ header h1 {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 500px;                
-    margin: 10px;            
+    margin: 50px;            
 }
 
 .content-title {
@@ -94,8 +94,7 @@ header h1 {
 }
 
 .content-title h2 {
-    margin-left: 50px;
-     color: var(--color-primary);       
+    color: var(--color-primary);       
     font-size: 2rem;
 }
 
