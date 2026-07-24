@@ -82,9 +82,9 @@ header h1 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 500px;                /* Ajuste conforme o visual desejado */
-    margin: 10px;             /* Margem uniforme nas laterais e topo */
-    background-color: rgb(146, 20, 20);  /* O container assume o fundo escuro da seção */
+    gap: 500px;                
+    margin: 10px;            
+    background-color: rgb(146, 20, 20);  
 }
 
 .content-title {
