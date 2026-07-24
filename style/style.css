@@ -18,6 +18,7 @@ body {
     line-height: 1.5;
     background-color: var(--color-bg);
     color: var(--color-text);
+    background-color: var(--color-secondary);
 }
 
 a {
@@ -94,6 +95,7 @@ header h1 {
 }
 
 .content-title h2 {
+    margin-left: 50px;
     color: white;             
     font-size: 2rem;
 }
@@ -101,8 +103,8 @@ header h1 {
 .content-texto {
     flex: 1;
     padding: 0;
-    margin-right: 50px; 
-    margin-left: 50px;      
+    justify-content: center;
+    margin-left: 525px;      
 }
 
 .content-texto p {
