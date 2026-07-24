@@ -85,7 +85,6 @@ header h1 {
     justify-content: flex-start;
     gap: 500px;                
     margin: 10px;            
-    background-color: rgb(146, 20, 20);  
 }
 
 .content-title {
@@ -96,7 +95,7 @@ header h1 {
 
 .content-title h2 {
     margin-left: 50px;
-    color: var(--color-bg);           
+     color: var(--color-primary);       
     font-size: 2rem;
 }
 
@@ -105,12 +104,23 @@ header h1 {
     padding: 0;
     justify-content: center;
     margin-left: 525px;      
+   
 }
 
-.content-texto p {
-    color: var(--color-bg);            
-    background-color: transparent; 
+.content-texto p {            
+    color: var(--color-primary);
     text-align: justify;
     line-height: 1.6;
     font-size: 1rem;
+}
+
+#menu {
+background-color:blue;
+}
+#team-content{
+  background-color:rgb(113, 113, 161);  
+}
+
+footer{
+      background-color:rgb(0, 0, 3);  
 }
