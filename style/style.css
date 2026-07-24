@@ -96,7 +96,7 @@ header h1 {
 
 .content-title h2 {
     margin-left: 50px;
-    color: white;             
+    color: var(--color-bg);           
     font-size: 2rem;
 }
 
@@ -108,7 +108,7 @@ header h1 {
 }
 
 .content-texto p {
-    color: white;             
+    color: var(--color-bg);            
     background-color: transparent; 
     text-align: justify;
     line-height: 1.6;
