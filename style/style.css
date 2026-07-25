@@ -78,7 +78,7 @@ header h1 {
     color: var(--color-heading);
 }
 /* who we are */
-.container-flex {
+.container-whoAreWe {
     display: flex;
     align-items: center;/*alinhamento vertical*/
     flex-direction: row;/*alinhamento horizontal*/
@@ -87,20 +87,15 @@ header h1 {
               
 }
 
-.content-title {
-    margin-left: 50px;
-    flex: 0 0 250px;          
-    padding: 0;
-}
-
 .content-title h2 {
     color: var(--color-primary);       
     font-size: 2rem;
+    margin-left: 4rem;
+    width: 250px;
 }
 
 .content-texto {
-    flex: 1;
-    padding: 0;
+    margin-top: 20px;
     justify-content: center;
     margin-left: 525px;      
    
@@ -108,7 +103,7 @@ header h1 {
 
 .content-texto p {            
     color: var(--color-primary);
-    text-align: justify;
+    text-align: justify;/*alinhamento do texto*/
     line-height: 1.6;
     font-size: 1rem;
 }
