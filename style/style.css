@@ -64,18 +64,17 @@ header {
     background-position: center;
     padding: 2rem;
     color: var(--color-primary);
-    height: 800px;
+    height: 900px;
 }
 
 header h1 {
     width: 650px;
     margin-top: 4rem;
     margin-left: 4rem;
-
     font-size: 4.2rem;
     font-weight: 800;
-    line-height: 1.1;
-    letter-spacing: -2px;
+    line-height: 1.1;/*espaçamento vertical entre as linhas*/
+    letter-spacing: -2px;/*espaço horizontal entre os caracteres*/
     color: var(--color-heading);
 }
 /* who we are */
@@ -113,7 +112,7 @@ header h1 {
     font-size: 1rem;
 }
 
-#menu {
+#food_menu {
 background-color:blue;
 }
 #team-content{
