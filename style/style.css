@@ -80,10 +80,11 @@ header h1 {
 /* who we are */
 .container-flex {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 500px;                
-    margin: 50px;            
+    align-items: center;/*alinhamento vertical*/
+    flex-direction: row;/*alinhamento horizontal*/
+    gap: 250px;                
+    margin-top: 25px;
+              
 }
 
 .content-title {
@@ -112,13 +113,3 @@ header h1 {
     font-size: 1rem;
 }
 
-#food_menu {
-background-color:blue;
-}
-#team-content{
-  background-color:rgb(113, 113, 161);  
-}
-
-footer{
-      background-color:rgb(0, 0, 3);  
-}
