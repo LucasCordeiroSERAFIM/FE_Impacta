@@ -12,7 +12,18 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+    font-family: 'Paper';
+    src: url('../fonts/pepper-sauce.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lavishly Yours';
+    src: url('../fonts/LavishlyYours-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplayfont_wght.ttf') format('truetype');
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -57,6 +68,7 @@ ul {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
+    font-family: 'Paper';
 }
 header {
     background-image: url('../images/banner.jpg');
@@ -73,6 +85,7 @@ header h1 {
     margin-left: 4rem;
     font-size: 4.2rem;
     font-weight: 800;
+    font-family: 'Playfair Display', serif;
     line-height: 1.1;/*espaçamento vertical entre as linhas*/
     letter-spacing: -2px;/*espaço horizontal entre os caracteres*/
     color: var(--color-heading);
@@ -84,7 +97,8 @@ header h1 {
     align-items: flex-start;
     margin-left: 4rem;          
     padding: 0 4rem;               
-    margin-top: 25px
+    margin-top: 25px;
+    font-family: 'Playfair Display', serif;
 }
 
 .content-title {
@@ -110,3 +124,4 @@ header h1 {
     font-size: 1rem;
     word-wrap: break-word; /* Garante que palavras muito longas não estourem o container */
 }
+/*fazer as imagens da parte de baixo do menu*/
