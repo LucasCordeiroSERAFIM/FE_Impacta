@@ -80,31 +80,33 @@ header h1 {
 /* who we are */
 .container-whoAreWe {
     display: flex;
-    align-items: center;/*alinhamento vertical*/
-    flex-direction: row;/*alinhamento horizontal*/
-    gap: 250px;                
-    margin-top: 25px;
-              
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 4rem;          
+    padding: 0 4rem;               
+    margin-top: 25px
+}
+
+.content-title {
+    flex: 0 0 250px;               
 }
 
 .content-title h2 {
-    color: var(--color-primary);       
-    font-size: 2rem;
-    margin-left: 4rem;
-    width: 250px;
-}
-
-.content-texto {
-    margin-top: 20px;
-    justify-content: center;
-    margin-left: 525px;      
+    color: var(--color-primary);
+    width: 250px; 
    
 }
-
-.content-texto p {            
-    color: var(--color-primary);
-    text-align: justify;/*alinhamento do texto*/
-    line-height: 1.6;
-    font-size: 1rem;
+.content-texto {
+    flex: 1;
+    max-width: 450px; 
+    margin-top: 20px;
+    margin-right: 4rem;
 }
 
+.content-texto p {
+    color: var(--color-primary);
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1rem;
+    word-wrap: break-word; /* Garante que palavras muito longas não estourem o container */
+}
