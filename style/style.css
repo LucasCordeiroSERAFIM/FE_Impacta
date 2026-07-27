@@ -168,4 +168,21 @@ header h1 {
     background-size: cover;
     background-position: center;
 }
+
+.container-food_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.text-menu{
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--color-primary);
+    line-height: 1.6;
+    font-size: 1rem;
+    word-wrap: break-word; /*não estourem o container */
+}
 /*fazer as imagens da parte de baixo do menu*/
