@@ -171,6 +171,7 @@ header h1 {
 /*Food Menu*/
 .container-food_menu{
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -213,4 +214,89 @@ header h1 {
 .menu-option:hover {
     background-color: rgb(138, 139, 134);
 }
-/*fazer as imagens da parte de baixo do menu*/
+/*responsividade*/
+@media screen and (max-width: 768px) {
+    .nav {
+        padding: 1rem;
+    }
+
+    header {
+        height: auto;
+        padding: 1rem;
+    }
+
+    header h1 {
+        width: 100%;
+        margin: 2rem 1rem;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+        letter-spacing: -1px;
+    }
+
+    /* Who are we */
+    .container-whoAreWe {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 1rem;
+        margin-top: 20px;
+    }
+
+    .content-title {
+        flex: 1;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .content-title h2 {
+        width: 100%;
+    }
+
+    .content-texto {
+        flex: 1;
+        max-width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    /* Slider */
+    .container-slider {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+        padding: 0 1rem;
+    }
+
+    #slider1, #slider2, #slider3 {
+        height: 250px;
+    }
+
+    /* Menu options */
+    .menu-options {
+        gap: 10px;
+    }
+
+    .menu-option {
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .text-menu {
+        width: 90%;
+        padding: 0 1rem;
+    }
+}
+
+/* Tablets */
+@media screen and  (max-width: 1024px) {
+    header h1 {
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+
+    .container-whoAreWe {
+        margin-left: 2rem;
+        padding: 0 2rem;
+    }
+}
