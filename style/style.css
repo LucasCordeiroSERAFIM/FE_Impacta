@@ -70,13 +70,15 @@ ul {
     font-weight: 700;
     font-family: 'Paper';
 }
+
 header {
     background-image: url('../images/banner.jpg');
     background-size: cover;
     background-position: center;
     padding: 2rem;
     color: var(--color-primary);
-    height: 900px;
+    background-attachment: fixed;
+    min-height: 900px;
 }
 
 header h1 {
@@ -214,10 +216,12 @@ header h1 {
 .menu-option:hover {
     background-color: rgb(138, 139, 134);
 }
-/*responsividade*/
-@media screen and (max-width: 768px) {
+
+
+/* Responsividade */
+@media (max-width: 768px) {
     .nav {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     header {
@@ -233,7 +237,7 @@ header h1 {
         letter-spacing: -1px;
     }
 
-    /* Who are we */
+   
     .container-whoAreWe {
         flex-direction: column;
         margin-left: 0;
@@ -287,16 +291,15 @@ header h1 {
     }
 }
 
-/* Tablets */
-@media screen and  (max-width: 1024px) {
+@media (max-width: 1024px) {
     header h1 {
         width: 100%;
         margin-left: 2rem;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .container-whoAreWe {
         margin-left: 2rem;
-        padding: 0 2rem;
+        padding: 0 2rem; 
     }
 }
