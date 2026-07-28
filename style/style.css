@@ -37,7 +37,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: green;
+    color: var(--color-text);
     text-decoration: underline;
 }
 
@@ -168,21 +168,49 @@ header h1 {
     background-size: cover;
     background-position: center;
 }
-
+/*Food Menu*/
 .container-food_menu{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
 }
 .text-menu{
     width: 500px;
     text-align: center;
+    align-items: center;
     margin-top: 20px;
     color: var(--color-primary);
-    line-height: 1.6;
     font-size: 1rem;
     word-wrap: break-word; /*não estourem o container */
+}
+
+/*Menu Options*/
+.menu-options {
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-option {
+    border-radius: 20px;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    color: var(--color-heading);
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #999;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-option:hover {
+    background-color: rgb(138, 139, 134);
 }
 /*fazer as imagens da parte de baixo do menu*/
