@@ -30,9 +30,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: var(--color-bg);
-    color: var(--color-text);
     background-color: var(--color-secondary);
+    color: var(--color-text);
 }
 
 a {
@@ -74,6 +73,64 @@ ul {
     font-weight: 700;
     font-family: "Paper";
 }
+
+
+
+.menu-mobile {
+    display: none;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--color-primary);
+    padding-top: 2rem;
+    transition: left 0.3s ease;/*tempo de chamada ao abrir/fexar*/
+    z-index: 1000;
+}
+
+.menu-mobile.active {
+    left: 0;
+}
+
+.menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.menu-mobile li {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-mobile a {
+    color: var(--color-secondary);
+    font-size: 1.1rem;
+}
+
+.menu-mobile a:hover {
+    color: var(--color-bg);
+    text-decoration: none;
+}
+.close-menu {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 header {
     background-image: url("../images/banner.jpg");
@@ -314,6 +371,12 @@ header h1 {
         padding: 1rem;
     }
 
+    .menu-mobile {
+        display: block;
+        width: 250px;
+        height: 100vh;
+    }
+
     .menu:last-of-type {
         display: none;
     }
@@ -321,11 +384,8 @@ header h1 {
     .menu:first-of-type li:not(:first-child) {
         display: none;
     }
-    .menu-opions-slid {
-        margin-top: 25px;
-    }
+
     header {
-        min-height: 500px;
         padding: 1rem;
         background-size: cover;
         background-position: center;
@@ -336,7 +396,6 @@ header h1 {
     header h1 {
         width: 100%;
         margin: 2rem 1rem;
-        margin-left: 1rem;
         font-size: 1.8rem;
         letter-spacing: -1px;
         line-height: 1.2;
