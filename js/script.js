@@ -19,3 +19,16 @@ menuLinks.forEach(link => {
         menuMobile.classList.remove('active');
     });
 });
+
+
+/**exercício */
+
+const logo = document.querySelector('.logo');
+
+    logo.addEventListener('mouseenter', () => {
+        logo.style.fontSize = '2rem';
+    });
+
+    logo.addEventListener('mouseleave', () => {
+        logo.style.fontSize = '1.5rem';
+    });
