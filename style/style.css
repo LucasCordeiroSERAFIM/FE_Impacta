@@ -340,7 +340,7 @@ header h1 {
 .drinks{
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 15rem;
     justify-content: center;
     padding: 4rem 4rem;
 }
@@ -350,11 +350,36 @@ header h1 {
    width: 400px;
    height: 600px;
 }
-.drinks_items{
-    background-color: yellow;
+.drinks_items {
+    background-color: #d4d4c8;
     text-align: center;
     width: 500px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.drinks-input {
+    width: 100%;
+    max-width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--color-primary);
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: var(--color-primary);
+    text-align: center;
+    outline: none;
+    cursor: default;
+}
+
+.drinks-input::placeholder {
+    color: var(--color-primary);
 }
 
 .footer{
