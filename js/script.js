@@ -21,7 +21,7 @@ menuLinks.forEach(link => {
 });
 
 
-/**exercício */
+/**exercício
 
 const logo = document.querySelector('.logo');
 
@@ -31,4 +31,4 @@ const logo = document.querySelector('.logo');
 
     logo.addEventListener('mouseleave', () => {
         logo.style.fontSize = '1.5rem';
-    });
+    }); */
